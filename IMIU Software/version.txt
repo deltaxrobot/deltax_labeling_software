@@ -1,0 +1,1 @@
+0.38;obligatory;iMiU.exe;D3Dcompiler_47.dll;libEGL.dll;libGLESv2.dll;
