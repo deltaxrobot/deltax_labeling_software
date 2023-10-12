@@ -32,7 +32,7 @@ Clone or download this repository to access the Delta X Labeling Software and Py
 
 ## Usage Instructions
 
-### Software Usage
+### Software Admin Usage
 
 #### Step 1: Change the IP address
 
@@ -53,3 +53,36 @@ Change the IP address to the IP address of the computer running the `server.py` 
 #### Step 4: Upload images
 
 ![Step 4](./imgs/upload_images.png)
+
+#### Step 5: Open project
+
+![Step 5](./imgs/open_project.png)
+
+#### Step 6: Labeling
+
+##### 1. Add class
+
+![Step 6](./imgs/add_class.png)
+
+##### 2. Labeling
+
+* Use left mouse to draw bounding box, right mouse to move the image and mouse wheel to zoom in/out the image.
+* Rotate the bounding box by using the rotate button in the middle of the direction edge.
+* Resize the bounding box by using the resize button in the corner of the bounding box.
+* Select object class by click on the class name in the class list after drawing the bounding box.
+* Save the project by click on the `Save` button in the dropdown `Menu`.
+* Mark the image as done by check the labeled checkbox in the image list. The same if you approve the image.
+
+![Step 6](./imgs/labeling.png)
+
+##### 3. Export data
+
+![export_data](./imgs/export_data.png)
+
+You can choose:
+
+* Export labeled data or approved data.
+* Resize the image to the desired size.
+* Export like a dataset formart or not(only export bounding box data).
+* Download the images or not.
+

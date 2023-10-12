@@ -1,0 +1,2 @@
+type:good:best::0:cyan:RectDir:
+type:bad:remove::0:maroon:RectDir:
