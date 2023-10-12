@@ -67,6 +67,7 @@ Change the IP address to the IP address of the computer running the `server.py` 
 ##### 2. Labeling
 
 * Use left mouse to draw bounding box, right mouse to move the image and mouse wheel to zoom in/out the image.
+* Use `Space` key to return back to the previous step while drawing the bounding box.
 * Rotate the bounding box by using the rotate button in the middle of the direction edge.
 * Resize the bounding box by using the resize button in the corner of the bounding box.
 * Select object class by click on the class name in the class list after drawing the bounding box.
@@ -86,3 +87,27 @@ You can choose:
 * Export like a dataset formart or not(only export bounding box data).
 * Download the images or not.
 
+### Software User Usage
+
+#### Step 1: Set IP address
+
+Change the IP address to the IP address of the computer running the `server.py` file.
+
+![Step 1](./imgs/change_ip_adress.png)
+
+#### Step 2: Create user account
+
+In the dropdown `Menu`, click on `Create Account` button, full fill the information and click on `Create Account` button.
+
+![create_user](./imgs/create_user_account.png)
+
+#### Step 3: Pull and label data
+
+![pull_data](./imgs/user_labeling.png)
+
+* Click on `Pull` button to pull the data from the server.
+* Label the data.
+* Save the labeled data locally by click on `Save` button on the topbar menu.
+* Push the labeled data to the server by click on `Push` button.
+
+Note: Once the data is pushed to the server, it will be deleted from the local storage.
