@@ -1,6 +1,6 @@
 0.jpg:mittoay:save:labeled:
 1.jpg:mittoay:save:labeled:
-10.jpg:mittoay:save
+10.jpg:mittoay:save:labeled:
 100.jpg:mittoay:send
 11.jpg:mittoay:send
 12.jpg:mittoay:send
@@ -12,3 +12,4 @@
 18.jpg:user1:send
 19.jpg:user1:send
 2.jpg:user1:send
+20.jpg:mittoay:send
