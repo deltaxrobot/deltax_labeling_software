@@ -87,6 +87,22 @@ You can choose:
 * Export like a dataset formart or not(only export bounding box data).
 * Download the images or not.
 
+#### Step 7: Training data
+
+##### 1. Create training folder
+
+* Keep the project opening. Please make sure the AIX software is installed. Then create a folder to store training data and results.
+* Open `Train Menu` by click `Train` button on toolbar, then select the folder you just created by `Folder` button.
+
+##### 2. Click `Init` button to initialize data
+
+##### 3. Click `Train` button to starting training process
+
+!!! note "Caution"
+    **DO NOT** close the software while training is in progress.
+
+##### 4. Get the `best.pt` file and use
+
 ### Software User Usage
 
 #### Step 1: Set IP address
