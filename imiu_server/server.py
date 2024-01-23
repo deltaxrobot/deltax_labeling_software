@@ -11,6 +11,7 @@ from filemanager import FileManager
 from flask_sqlalchemy import SQLAlchemy
 from flask_mail import Mail, Message
 import random
+import socket
 
 app = Flask(__name__)
 app.config.from_object(Config)
@@ -19,6 +20,7 @@ folder_get = FileManager()
 gmail = Mail(app)
 
 token_default = "imwi2021"
+ip_local = socket.gethostbyname(socket.gethostname())
 
 class Users(db.Model):
     id = db.Column('id', db.Integer, primary_key = True)
@@ -968,4 +970,4 @@ if __name__ == '__main__':
     with app.app_context():
         db.create_all()
 
-    app.run(host='192.168.1.29', port=5001)
+    app.run(host=ip_local, port=5001)
