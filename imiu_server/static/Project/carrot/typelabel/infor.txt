@@ -1,2 +1,0 @@
-type:good:best::0:cyan:Polygon:
-type:bad:remove::0:maroon:Polygon:
