@@ -36,7 +36,7 @@ Clone or download this repository to access the Delta X Labeling Software and Py
 
 #### Step 1: Change the IP address
 
-Change the IP address to the IP address of the computer running the `server.py` file.
+Change the IP address to the IP address of the computer running the `server.py` file. And press Enter.
 
 ![Step 1](./imgs/change_ip_adress.png)
 
