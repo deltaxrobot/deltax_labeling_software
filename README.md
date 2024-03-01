@@ -17,10 +17,6 @@ Clone or download this repository to access the Delta X Labeling Software and Py
 
 ### Run server.py file
 
-* Check your device IP adress and paste it in line 971 of `server.py` file. You can do this by go to the `Network and Internet Settings` of your computer and check the IPv4 address. Copy it and replace to the default IP address at line 971.
-
-![get_ip](./imgs/get_ip_address.png)
-
 * Run the `server.py` file.
 
 ![run_server](./imgs/get_ip_address_2.png)
@@ -36,7 +32,9 @@ Clone or download this repository to access the Delta X Labeling Software and Py
 
 #### Step 1: Change the IP address
 
-Change the IP address to the IP address of the computer running the `server.py` file. And press Enter.
+* Check your device IP adress and paste it in `IP Address Text Box`. You can do this by go to the `Network and Internet Settings` of your computer and check the IPv4 address.
+
+![get_ip](./imgs/get_ip_address.png)
 
 ![Step 1](./imgs/change_ip_adress.png)
 
